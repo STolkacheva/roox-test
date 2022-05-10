@@ -26,7 +26,6 @@ const Container = styled.div`
     <Container>
       <SideBar/>
       <Routes>
-        <Route path="/roox-test/" element={<UserList/>} />
         <Route path="/" element={<UserList/>} />
         <Route path="/:id" element={<UserInfo />} />
       </Routes>
